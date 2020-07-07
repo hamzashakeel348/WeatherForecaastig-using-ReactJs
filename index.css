@@ -1,0 +1,78 @@
+
+*{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+background-image: url('./images/ao.jpg');  
+background-size:500px 700px;
+margin-top: 30px;
+background-position: bottom;
+background-repeat: no-repeat;
+transition: 0.4 ease-out;
+background-size: 20px 20px 20px 20px;
+}
+body{
+  font-family: monospace;
+}
+main{
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.75));
+border-radius: 20px solid white;  
+}
+
+ .Searchbar{
+  margin-left: 480px;
+width:400px;
+border-radius: 0px 0px 8px 8px;
+height:50px;
+color: white;
+text-align: left;
+background-color: dimgray;
+}
+.Locationbox .Location{
+  margin-top: 100px;
+  color:white;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+.weatherbox
+{
+  color:white;
+  text-align: center;
+  font-size: 25px;
+}
+.date{
+  color:white;
+  text-align: center;
+  font-size: 25px;
+margin-top: 10px;
+text-shadow: 3px 3px rgba(50,50,70,0.5);
+font-style: italic;
+}
+
+.temperature{
+  margin-top: 85px;
+  font-size: 85px;
+  position: relative;
+  display: inline-block;
+  background-color:rgba(255,255,255,0.2);
+  border-radius: 16px;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 3px 6px rgba(50,50,70,0.5);
+  box-shadow: 3px 6px rgba(0,0,0,0.2);
+}
+.others{
+  font-size:20px;
+text-align: center;
+}
+.weather
+{
+  margin-top: 50px;
+  font-size: 55px;
+  font-weight: bolder;
+}
